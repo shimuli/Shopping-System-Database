@@ -1,4 +1,4 @@
-﻿CREATE TABLE [dbo].[Shopping]
+﻿CREATE TABLE [dbo].[Shoping]
 (
 	[Item_id] INT NOT NULL PRIMARY KEY IDENTITY, 
     [User_id] INT NOT NULL, 
@@ -12,4 +12,3 @@
 )
 
 GO
-
