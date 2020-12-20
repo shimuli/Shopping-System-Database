@@ -5,7 +5,7 @@
     [Product_price] INT NOT NULL, 
     [Quantity] INT NOT NULL,
     [Current_quantity] INT NOT NULL DEFAULT 0, 
-    [Image_url] NVARCHAR(200) NULL, 
+    [Image_url] VARBINARY(1025) NULL, 
     [barcode] NVARCHAR(50) NULL, 
     [Dateposted] DATETIME NOT NULL DEFAULT getdate(), 
     [User_id] INT NOT NULL, 
